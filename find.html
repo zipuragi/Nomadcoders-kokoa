@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.4/css/all.min.css"
+        />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>찾기 - 코코아톡</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>10:10</span>
+            </div>
+            <div class="status-bar__column">
+                <span>100%</span>
+                <i class="fas fa-battery-full fa-lg"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+
+        <header class="screen-header">
+            <h1 class="screen-header__title">찾기</h1>
+            <div class="screen-header__icons">
+                <span><i class="fas fa-search fa-lg"></i></span>
+                <span><i class="fas fa-cog fa-lg"></i></span>
+            </div>
+        </header>
+
+        <main class="main-screen">
+            <div class="icon-row">
+                <div class="icon-row__icon">
+                    <i class="fas fa-qrcode"></i>
+                    <span>QR Code</span>
+                </div>
+                <div class="icon-row__icon">
+                    <i class="far fa-address-book"></i>
+                    <span>연락처추가</span>
+                </div>
+                <div class="icon-row__icon">
+                    <i class="fas fa-fingerprint"></i>
+                    <span>지문으로 추가</span>
+                </div>
+                <div class="icon-row__icon">
+                    <i class="far fa-envelope"></i>
+                    <span>초대</span>
+                </div>
+            </div>
+            <div class="recommended-friends">
+                <h6 class="recommended-friends__title">추천 친구 목록</h6>
+                <span>추천 친구가 없습니다</span>
+            </div>
+            <div class="open-chat">
+                <div class="open-chat__header">
+                    <h4>오픈채팅</h4>
+                    <span>오픈채팅 홈으로 이동 <i class="fas fa-chevron-right fa-xs"></i> </span>
+                </div>
+                <div class="open-post">
+                    <div class="open-post__column">
+                        <h5 class="open-post__title">#아이유</h5>
+                        <h6 class="open-post__hashtags">#iu#유애나#팔레트</h6>
+                        <div class="open-post__members">
+                            <img
+                                src="https://w0.peakpx.com/wallpaper/430/438/HD-wallpaper-iu-goddess-jieun-lilacalbum.jpg"
+                            />
+                            <span class="open-post__member-count">9,830,924,923,242 멤버</span>
+                            <div class="divider"></div>
+                            <span class="open-post__member-status">활동중</span>
+                        </div>
+                    </div>
+                    <div class="open-post__column">
+                        <div class="open-post__photo">
+                            <img
+                                src="https://w0.peakpx.com/wallpaper/430/438/HD-wallpaper-iu-goddess-jieun-lilacalbum.jpg"
+                            />
+                            <div class="open-post__heart-count">
+                                <i class="fas fa-heart fa-xs"></i><span>912,143,326</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn">
+                    <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="chats.html">
+                        <span class="nav__notification badge">9</span>
+                        <i class="far fa-comment fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="no-mobile">
+            <span>스크린 사이즈가 너무 커요!! 좀 줄이면 잘 보일거에요!!!</span>
+        </div>
+    </body>
+</html>
